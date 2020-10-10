@@ -3,12 +3,12 @@
 ## Fluentd Json Parser
 1. Running script generator
 ```bash
-python3 json-generator.py > /var/log/json/python-json.log &
+python3 json-generator.py >> /var/log/json/python-json.log &
 tail -f /var/log/json/python-json.log
 ```
-2. Create file config for parse json log
+2. Copy file config for parse json log
 ```bash
-vi /etc/td-agent/config.d/json-parsing.conf
+cp json-parsing.conf /etc/td-agent/config.d/json-parsing.conf
 ```
 3. Restart service
 ```bash
