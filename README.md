@@ -1,1 +1,1 @@
-# fluentd-xml-parsing
+# Fluentd XML Parsing Configuration
